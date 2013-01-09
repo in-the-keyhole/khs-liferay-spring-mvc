@@ -98,29 +98,19 @@
 			<type>jar</type>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.planetrestore</groupId>
-			<artifactId>planet-restore-model-service</artifactId>
-			<version>1.0-SNAPSHOT</version>
-			<type>jar</type>
-			<scope>compile</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.planetrestore</groupId> -->
+<!-- 			<artifactId>planet-restore-model-service</artifactId> -->
+<!-- 			<version>1.0-SNAPSHOT</version> -->
+<!-- 			<type>jar</type> -->
+<!-- 			<scope>compile</scope> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc-portlet</artifactId>
 			<version>${spring.version}</version>
 			<type>jar</type>
 			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.velocity</groupId>
-			<artifactId>velocity</artifactId>
-			<version>1.7</version>
-		</dependency>
-		<dependency>
-			<groupId>velocity-tools</groupId>
-			<artifactId>velocity-tools</artifactId>
-			<version>1.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.tuckey</groupId>
@@ -155,9 +145,16 @@
   			<artifactId>jstl</artifactId>
   			<version>1.2</version>
 		</dependency>
-		
-		
-		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+			<version>3.0.2.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.6.10</version>
+		</dependency>
 	</dependencies>
 	
 	<properties>

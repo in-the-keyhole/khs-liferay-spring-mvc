@@ -35,7 +35,7 @@ public class TimeController implements PortletConfigAware {
 		return "time/time";
 	}
 
-	@Override
+	
 	public void setPortletConfig(PortletConfig portletConfig) {
 		// TODO Auto-generated method stub
 
