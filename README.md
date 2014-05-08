@@ -1,4 +1,4 @@
 khs-liferay-spring-mvc
 ======================
 
-Maven Liferay Project with Spring MVC Hello World Portlet
+This example project defines a Liferay hello-world portlet using the Spring MVC Portlet framework.
